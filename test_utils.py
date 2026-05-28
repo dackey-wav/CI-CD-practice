@@ -44,6 +44,7 @@ def test_divide(a: int, b: int, expected: float) -> None:
     result = utils.divide(a, b)
     assert result == expected
 
+
 @pytest.mark.parametrize(
     "value,expected",
     [(0, "0"), (1, "1"), (2, "10"), (10, "1010"), (100, "1100100")],
